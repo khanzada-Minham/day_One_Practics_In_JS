@@ -29,3 +29,32 @@ function printName() {    // Function
     console.log(person.name);   
 }
 printName() // call the ,Function
+
+
+
+//      Stack-Memory => (Primitive-Data-Type) used to Stack-Memory 'copy-Value' the variable;
+//      Heap-Memory =>  (Non-Primitive-Data-Type) used to Heap-Mamory 'Original-Value' change;
+
+//      Stack-Memory:
+
+let myEmailName = "Minhamkhanzada4455@gmail.com";
+let changeTheMyEmailName = myEmailName;
+changeTheMyEmailName = "MinhamHussain@gmail.com";
+
+console.log('myEmailName =>',myEmailName);
+console.log('changeTheMyEmailName =>',changeTheMyEmailName);
+
+
+
+//      Heap-Memory: 
+
+let studentOne = {
+    name: "Minham",
+    age: 30,
+    attendance: true
+}
+
+let studentTwo = studentOne;
+studentTwo.age = 24;
+console.log(studentOne);
+console.log(studentTwo);
