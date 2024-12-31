@@ -27,7 +27,7 @@ console.log(newDate.getDay());
 
 let anotherNewDateObject =  newDate.toLocaleString('default',{
     weekday: 'short',
-    year: '2-digit',
+    year: 'numeric',  // explane the shot date display example => Dec-2024-Tue
     month: 'short',
 })
 
