@@ -16,9 +16,7 @@ const regularUser = {
         },
     },
 }
-console.log(regularUser);
-
-
+// console.log(regularUser);
 
 const studentOne = {
     name1: 'John',
@@ -34,7 +32,7 @@ const studentTwo = {
 
 //const Brother_Result = Object.assign({} ,studentOne, studentTwo);  // Connect the two Objects ,but not same Object Keys,
 const Brother_Result = { ...studentOne, ...studentTwo } // Connect the two Objects ,but not same Object Keys,
-console.log(Brother_Result);
+// console.log(Brother_Result);
 
 
 const user = [
@@ -55,11 +53,25 @@ const user = [
     },
 ]
 
-console.log(user)
+// console.log(user)
 
 const tinderUser_Practices = Object.keys(tinderUser); // Convert Result is return Object_Keys in Array 😎
 // const tinderUser_Practices1 = Object.entries(tinderUser); 
 console.log(tinderUser.hasOwnProperty('fulname')) // hasOwnProperty is chack the object value return the answer is true & false,
 
 
+
+const course = {
+    courseName: 'React Js',
+    coursePrice: 1000,
+    courseInstructor: 'Minham_Khanzada'
+}
+
+// console.log(course.courseInstructor);
+
+const { courseInstructor : Instructor, coursePrice : Price, courseName } = course
+
+console.log(Instructor); // Object destructuring syntex In.
+console.log(Price); // Object destructuring syntex In.
+console.log(courseName);
 
