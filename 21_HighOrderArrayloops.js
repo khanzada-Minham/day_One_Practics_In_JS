@@ -60,6 +60,7 @@ const myCoding = [
     { name: 'Python', price: 300 },
     { name: 'rube', price: 350 }
 ]
-myCoding.forEach((items)=>{
+let onLoopValues = myCoding.forEach((items) => { // not return value
     console.log(items);
 })
+console.log(onLoopValues);
