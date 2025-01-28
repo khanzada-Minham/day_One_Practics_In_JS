@@ -143,5 +143,38 @@ let deleted = spliceNumber.splice(1, 3, 6, 7)
 // console.log(deleted);
 // console.log(spliceNumber);
 
+const namesArr = ['Minham', 'Aliyan', "Sanan", "Ghazi", 'Kealri', 'Mohir'];
+namesArr.sort()
+// console.log(namesArr);
 
+
+const number_Sorting = [74, 10, 5, 90, 102, 1, 30, 8, 2, 7, 6, 101, 1, 1];
+number_Sorting.sort(sortingArray);
+function sortingArray(a, b) {
+    return a - b
+}
+let result = number_Sorting.filter((items, index, arr) => {
+    return arr.indexOf(items) === index;
+})
+// console.log(result);
+
+
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+const arr3 = [7, 8, 9];
+
+const arr4 = arr1.concat(arr2, arr3, 10)
+// console.log(arr4);
+
+
+const filNumber = [1, 2, 3, 4, 5, 6, 7];
+filNumber.fill(0, 1, 5);
+// console.log(filNumber);
+
+function fillNum(x){
+    return Array(x).fill(0).map((items,index)=>{
+        return index + 1
+    })
+}
+// console.log(fillNum(10))
 
