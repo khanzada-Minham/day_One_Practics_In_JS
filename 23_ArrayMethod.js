@@ -209,3 +209,22 @@ const reversString = "Hello Word!";
 let resultReversString = reversString.split(' ').reverse().join('');
 // console.log(resultReversString);
 
+
+const PuchNumber = [];
+PuchNumber.push(10, 5, 7, 9, 4, 1);
+PuchNumber.sort(PuchNumberSort);
+function PuchNumberSort(a, b) {
+    return a - b
+}
+// console.log(PuchNumber);
+
+const popNumber = [1, 2, 3, 4, 5, 6];
+// popNumber.pop();
+// popNumber.pop();
+let ResultPopNumber = popNumber.pop();
+// console.log(ResultPopNumber);
+
+
+const unshiftNumber = [1, 2, 3, 4, 5, 6];
+unshiftNumber.unshift(10)
+// console.log(unshiftNumber);
