@@ -171,10 +171,41 @@ const filNumber = [1, 2, 3, 4, 5, 6, 7];
 filNumber.fill(0, 1, 5);
 // console.log(filNumber);
 
-function fillNum(x){
-    return Array(x).fill(0).map((items,index)=>{
+function fillNum(x) {
+    return Array(x).fill(0).map((items, index) => {
         return index + 1
     })
 }
 // console.log(fillNum(10))
+
+const StudentName = ["Minham", "Aliyan", "Sanan", "Mohir"];
+const chackName = StudentName.includes("Aliyan");
+
+// console.log(chackName);
+
+
+const fruits = ['Apple', 'Oringe', 'Mango'];
+const chackFruits = fruits.includes('Oringe');
+if (chackFruits) {
+    // console.log('Yuppy!')
+}
+else {
+    console.log(`Sad... Let's buy the Oringe`)
+}
+// console.log(chackFruits);
+
+
+const countires = ['Pakistan', 'Romain', 'USA'];
+let resultCountires = countires.join(', ')
+// console.log(`I want to visit : ${resultCountires}`);
+
+const reversNum = [1, 2, 3, 4, 5, 6];
+let resultReversNum = reversNum.concat().reverse();
+// console.log(resultReversNum);
+
+
+const reversString = "Hello Word!";
+
+let resultReversString = reversString.split(' ').reverse().join('');
+// console.log(resultReversString);
 
