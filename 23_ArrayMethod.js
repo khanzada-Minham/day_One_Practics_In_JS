@@ -228,3 +228,27 @@ let ResultPopNumber = popNumber.pop();
 const unshiftNumber = [1, 2, 3, 4, 5, 6];
 unshiftNumber.unshift(10)
 // console.log(unshiftNumber);
+
+
+const shiftNumber = [1, 2, 3, 4, 5, 6, 7];
+shiftNumber.shift();
+shiftNumber.shift();
+shiftNumber.shift();
+// console.log(shiftNumber);
+
+
+const indexOfString = ['Minham', 'Sanan', 'Aliyan','Minham','Mohir'];
+let resultIndexOfString = indexOfString.lastIndexOf('Minham')
+if(resultIndexOfString > -1){
+    console.log(`Yha, we have Mohir`);
+    
+}
+else{
+    console.log(`No Mohir`);
+}
+// console.log(resultIndexOfString);
+
+
+
+
+
