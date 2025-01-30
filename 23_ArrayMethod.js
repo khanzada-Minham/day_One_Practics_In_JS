@@ -237,18 +237,103 @@ shiftNumber.shift();
 // console.log(shiftNumber);
 
 
-const indexOfString = ['Minham', 'Sanan', 'Aliyan','Minham','Mohir'];
+const indexOfString = ['Minham', 'Sanan', 'Aliyan', 'Minham', 'Mohir'];
 let resultIndexOfString = indexOfString.lastIndexOf('Minham')
-if(resultIndexOfString > -1){
-    console.log(`Yha, we have Mohir`);
-    
+if (resultIndexOfString > -1) {
+    // console.log(`Yha, we have Mohir`);
+
 }
-else{
+else {
     console.log(`No Mohir`);
 }
 // console.log(resultIndexOfString);
 
 
 
+const everyNumber = [1, 2, 3, 4, 5];
+let resultEveryNumber = everyNumber.every((items) => {
+    return items > 0
+});
+// console.log(resultEveryNumber);
 
 
+const Person = [
+    {
+        name: "Minham",
+
+    },
+    {
+        name: "Aliyan",
+
+    },
+    {
+        name: "Sanan",
+
+    },
+    {
+        name: "Mohir",
+    }
+]
+
+const resultPerson = Person.every((items) => {
+    return items.name !== undefined
+})
+// console.log(resultPerson);
+
+
+const someNumber = [1, 2, 3, 4, 5];
+let resutlSomeNumber = someNumber.some((items) => {
+    return items > 5
+})
+// console.log(resutlSomeNumber);
+
+
+
+const FindProduct = [
+    {
+        name: "laptop",
+        price: 1000,
+        count: 5
+    },
+    {
+        name: "phone",
+        price: 500,
+        count: 10
+    },
+    {
+        name: "watch",
+        price: 200,
+        count: 20
+    },
+    {
+        name: "headphones",
+        price: 300,
+        count: 15
+    }
+]
+
+let resultFindProduct = FindProduct.find((items) => {
+    return items.name === "watch"
+})
+// console.log(resultFindProduct);
+
+
+const arrayStr = '12345678';
+let resultArratStr = Array.from(arrayStr, mapStr)
+function mapStr(x) {
+    return Number(x)
+}
+// console.log(resultArratStr);
+
+
+const isArrayNumber = [1, 2, 3, 4, 5, 6];
+const isArrayString = "Minham";
+const isArrayNum = 12345;
+
+let ResultIsArray = Array.isArray(isArrayNum)
+// console.log(ResultIsArray);
+
+
+const flatArray = [1, 2, 3, 5, [6, 7, 8, [9, 10], [11, 12]]];
+let resultFlatArray = flatArray.flat(Infinity)
+console.log(resultFlatArray);
