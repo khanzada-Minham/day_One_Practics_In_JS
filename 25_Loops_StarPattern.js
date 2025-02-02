@@ -21,3 +21,23 @@ for (let i = 1; i < b; i++) {
 // console.log(TwoString);
 
 
+let c = 6;
+let threeString = "";
+
+for (let i = 1; i <= c; i++) {
+    for (let j = 0; j < i; j++) {
+        if(i === c){
+            threeString += "*"
+        }
+        else{
+            if(j == 0 || j == i - 1){
+                threeString += "*"
+            }
+            else{
+                 threeString += " "
+            }
+        }
+    }
+    threeString += "\n"
+}
+// console.log(threeString);
