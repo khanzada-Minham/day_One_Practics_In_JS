@@ -9,3 +9,4 @@ var  accountEmail = "minham@gmail.com"
 // console.log(accountEmail);
 
 console.table([accountId,accountName,accountEmail])
+

@@ -20,6 +20,7 @@ if (valueInNumber) { // Strick Chack , NAN Shouldn't be.
 
 
 
+
 let isLoggedIn = "";
 
 let booleanIsLogged = Boolean(isLoggedIn);

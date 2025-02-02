@@ -16,6 +16,7 @@ console.log(hundrads.toLocaleString('en-IN')); // 1,000,000
 // ++++++++++++++++++++++++++++++++ MATHS +++++++++++++++++++++++++++++++++++
 
 
+
 console.log(Math);
 console.log(Math.abs(-5)); // nagetive value change ;
 console.log(Math.round(5.8)); // rounded the value ;

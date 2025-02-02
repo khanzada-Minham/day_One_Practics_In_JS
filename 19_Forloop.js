@@ -24,6 +24,7 @@ for (let i = 0; i < myArray.length; i++) {
     // console.log(element);
 }
 
+
 for (let i = 0; i < 20; i++) {
     if(i == 7){
         // console.log('I am 7');

@@ -31,3 +31,4 @@ console.log(newArray);
 console.log('splice',newArray.splice(1,3)); // Splice Change the Original Array
 console.log(newArray);
 
+

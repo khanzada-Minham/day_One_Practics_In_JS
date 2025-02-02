@@ -26,6 +26,7 @@ console.log(js_student[mySymbol]);
 console.log(js_student.isLoggedIn);
 
 
+
 js_student.isLoggedIn = true;
 console.log(js_student.isLoggedIn);
 

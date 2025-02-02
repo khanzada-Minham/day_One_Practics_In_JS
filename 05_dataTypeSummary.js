@@ -23,6 +23,7 @@ const supperHeros = ["Superman","Batman","Spider-Man"]; // Array
 const person = {
     name: "Minham",  // Object
     age: 30,
+    
 }
 
 function printName() {    // Function

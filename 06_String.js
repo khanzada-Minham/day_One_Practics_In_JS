@@ -14,6 +14,7 @@ console.log(gameName.toLowerCase()); // characterLowerCase
 console.log(gameName.charAt(5)); // Which character Posetion ("_")
 console.log(gameName.indexOf('G')); // which index posetion ('6')
 
+
 let newStringGameName = gameName.substring(0,5); // not included full String
 console.log('newStringGameName',newStringGameName);
 

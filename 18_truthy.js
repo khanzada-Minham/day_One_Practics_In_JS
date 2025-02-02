@@ -26,6 +26,7 @@ if(Object.keys(emptyObj).length === 0){
 }
 // Nullish Coalescing Operator (??) :null undefined;
 
+
 let vel1;
 // vel1 = 5 ?? 10;
 // vel1 = null ?? 10;

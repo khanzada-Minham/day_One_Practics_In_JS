@@ -13,3 +13,4 @@ const chai = (num1, num2) => (num1 + num2) // This is arrow Function & Implicit 
 const arrowFunction = () => ({name:'Minham'}) // This is arrow with Object Function & Implicit Return
 console.log(chai(7, 1));
 console.log(arrowFunction());
+

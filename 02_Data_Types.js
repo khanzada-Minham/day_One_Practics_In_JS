@@ -12,3 +12,4 @@ const practices = undefined; // undefined
 console.log(typeof job); // Object;
 console.log(typeof practices); // undefined;
 
+

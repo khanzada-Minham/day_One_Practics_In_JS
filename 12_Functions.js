@@ -46,6 +46,7 @@ console.log(`Total Prices ${calculate_cart_Prices_result}`);
 
 
 
+
 function handleObject(anyObject){
     console.log(`User is ${anyObject.name} & Age is ${anyObject.age}`);  // handle The Object in Function
 }

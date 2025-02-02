@@ -24,6 +24,7 @@ const studentOne = {
     marks3: 95
 }
 
+
 const studentTwo = {
     name: 'Jane Brother',
     age: 17,

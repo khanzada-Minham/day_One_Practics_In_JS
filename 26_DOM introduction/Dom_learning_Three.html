@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+    function AddProgramingLanguage(items) {
+        const listItem = document.createElement('li');
+        listItem.innerText = `${items}`;
+        document.querySelector('.language').appendChild(listItem)
+    }
+    AddProgramingLanguage('TypeScript');
+    AddProgramingLanguage('Python');
+    AddProgramingLanguage('Java');
+    AddProgramingLanguage('C++');
+    let removelist = document.querySelector('li:last-child');
+    removelist.remove()
+
+
+</script>
+</html>

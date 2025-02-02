@@ -29,3 +29,4 @@ const playerThree = 300;
 let playerFore = (Array.of(playerOne,playerTwo,playerThree)); // Create the new Array .
 console.log(playerFore); // Create Array from value
 
+
