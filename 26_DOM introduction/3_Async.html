@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <h1>2 projects with Async JS</h1>
+    <button id="stop">Stop</button> -->
+    <h1>JavaScript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    //     const sayMinham = () => {
+    //     console.log('Minham');
+    // }
+    // const changeText = function () {
+    //     document.querySelector('h1').innerHTML = 'Best js sries';
+    // }
+    // const changeMe = setTimeout(changeText, 2000)
+    // const stop = document.querySelector('#stop');
+    // stop.addEventListener('click', () => {
+    //     clearTimeout(changeMe);
+    //     console.log(`STOPPED`);
+    // })
+    document.querySelector('#start').addEventListener('click', function () {
+        const sayMyName = ((item) => {
+            console.log(`Hello ${item}`);
+        })
+        const IntervalId = setInterval(sayMyName, 1000, 'Hi');
+        document.querySelector('#stop').addEventListener('click', function () {
+            clearInterval(IntervalId)
+        })
+    })
+
+</script>
+
+</html>
