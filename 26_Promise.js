@@ -117,3 +117,19 @@
 //     }).catch((Error) => {
 //         console.log(`Error ${Error}`);
 //     })
+
+
+// await new Promise(async (resolve, reject) => {
+//     setTimeout(() => {
+//         resolve({
+//             "name": "JavaScript",
+//             "Prices": 1200,
+//         })
+//     }, 1000)
+// }).then((result) => {
+//     return result
+// }).then((values) => {
+//     console.log(values)
+// }).catch((err) => {
+//     console.log(err)
+// })
