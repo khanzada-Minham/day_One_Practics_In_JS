@@ -21,9 +21,16 @@ function User(username,loginCont,isLoggedIn) {
     this.username = username;
     this.loginCount = loginCont;
     this.isLoggedIn = isLoggedIn;
+
+    this.greeting = function(){
+        return `Welcom, ${this.username}!`;
+    }
     return this;
 }
 let userOne = new User('Minham',5,true);
 let userTwo = new User('Hussain',9,false);
-console.log(userOne);
-console.log(userTwo);
+
+
+// console.log(userOne instanceof User);
+// console.log(userOne);
+console.log(userTwo.greeting());
