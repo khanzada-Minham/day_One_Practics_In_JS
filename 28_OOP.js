@@ -23,7 +23,7 @@ function User(username,loginCont,isLoggedIn) {
     this.isLoggedIn = isLoggedIn;
 
     this.greeting = function(){
-        return `Welcom, ${this.username}!`;
+        return `Wellcome, ${this.username}!`;
     }
     return this;
 }
@@ -33,4 +33,4 @@ let userTwo = new User('Hussain',9,false);
 
 // console.log(userOne instanceof User);
 // console.log(userOne);
-console.log(userTwo.greeting());
+console.log(userOne.greeting());

@@ -76,3 +76,7 @@ console.log(Instructor); // Object destructuring syntex In.
 console.log(Price); // Object destructuring syntex In.
 console.log(courseName);
 
+const students = {}
+
+students.name = 'Minham';
+console.log(students);
