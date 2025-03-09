@@ -77,5 +77,60 @@
 // Q6
 
 // let a = 436;
-
 // console.log(a % 10);
+
+// Q7
+// let a = 10;
+// let b = a++
+// console.log(a);
+// console.log(b);
+
+// Q8
+
+// let a = 11; // a 12 , 13
+// let b = 22; // b 23 , 24
+
+// let c = a + b + a++ + b++ + ++a + ++b  // 33 + 11 + 22 + 13 + 24
+
+// console.log(c);
+// console.log(a);
+// console.log(b);
+
+
+// Q9
+
+// let a = true;
+// a++
+// console.log(a);
+
+// Q10
+
+// let a = 11++  // error
+// console.log(a);
+
+
+
+// console.log(Math.round(10.11));
+// console.log(Math.ceil(10.1));
+// console.log(Math.floor(10.9));
+// console.log(Math.trunc(10.9));
+// console.log(Math.pow(2, 7));
+// console.log(Math.sqrt(45));
+// console.log(Math.abs(-5));
+// console.log(Math.max(1, 2, 3, 4, 5));
+// console.log(Math.min(1, 2, 3, 4, 5));
+// console.log(Math.random() * 10);
+// console.log(Math.random() * 10 + 1);
+// console.log(Math.cbrt(10.8));
+// let a = 40.5689
+// console.log(a.toFixed(1));
+
+// Q11
+
+// let max = 456789;
+// let min = 100000;
+
+// let c = Math.floor(Math.random() * max + min)
+// console.log(c);
+
+
