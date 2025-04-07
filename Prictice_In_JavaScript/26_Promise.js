@@ -8,6 +8,7 @@
 //     console.log('Task is completed',items)
 // })
 
+
 // result = {
 //     "name": "John",
 //     "age": 30,
@@ -119,17 +120,3 @@
 //     })
 
 
-// await new Promise(async (resolve, reject) => {
-//     setTimeout(() => {
-//         resolve({
-//             "name": "JavaScript",
-//             "Prices": 1200,
-//         })
-//     }, 1000)
-// }).then((result) => {
-//     return result
-// }).then((values) => {
-//     console.log(values)
-// }).catch((err) => {
-//     console.log(err)
-// })
