@@ -228,3 +228,17 @@
 //         console.log(`${String.fromCharCode(i)} Times ${newArr[i]}`);
 //     }
 // }
+
+
+// let str = 'MiNhAm';
+// let toggal = '';
+// for (let i = 0; i < str.length; i++) {
+//     let chr = str.charCodeAt(i);
+//     if (chr >= 65 && chr <= 90) {
+//         toggal += String.fromCharCode(chr + 32);
+//     }
+//     else if (chr >= 97 && chr <= 122){
+//         toggal += String.fromCharCode(chr - 32);
+//     }
+// }
+// console.log(toggal);
