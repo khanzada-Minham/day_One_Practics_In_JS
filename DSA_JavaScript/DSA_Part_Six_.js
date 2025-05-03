@@ -376,3 +376,118 @@ console.log(arr);
 //     }
 // }
 // console.log(arr);
+
+
+// Remove Duplicates from Sorted Array;
+/*
+let arr = [0, 1, 1, 2, 2, 3, 3];
+let j = 1;
+for (let i = 0; i < arr.length - 1; i++) {
+    if (arr[i] !== arr[i + 1]) {
+        arr[j] = arr[i + 1];
+        j++;
+    }
+}
+console.log(arr);
+*/
+
+// let arrayOne = [2, 5, 6];
+// let arrayTwo = [1, 3, 4, 7];
+// let temp = new Array(arrayOne.length, arrayTwo.length);
+// let i = 0;
+// let j = 0;
+// let k = 0;
+// while (i < arrayOne.length && j < arrayTwo.length) {
+//     if (arrayOne[i] < arrayTwo[j]) {
+//         temp[k] = arrayOne[i];
+//         i++;
+//         k++
+//     }
+//     else {
+//         temp[k] = arrayTwo[j];
+//         k++;
+//         j++;
+//     }
+// }
+// while (j < arrayTwo.length) {
+//     temp[k] = arrayTwo[j];
+//     k++;
+//     j++;
+// }
+// while (i < arrayOne.length) {
+//     temp[k] = arrayOne[j];
+//     k++;
+//     j++;
+// }
+// console.log(temp);
+
+
+
+
+
+// let arr1 = [1, 3, 5, 7];
+// let arr2 = [2, 4, 6, 8,9];
+// let temp = new Array(arr1.length, arr2.length);
+// let i = 0,
+// j = 0,
+// k = 0;
+// while (i< arr1.length && j< arr2.length) {
+//     if (arr1[i] < arr2[j]) {
+//         temp[k] = arr1[i];
+//         k++;
+//         i++;
+//     }
+//     else{
+//         temp[k] = arr2[j];
+//         k++;
+//         j++;
+//     }
+// }
+// while (j < arr2.length) {
+//     temp[k] = arr2[j];
+//     k++;
+//     j++;
+// }
+// while (i < arr1.length) {
+//     temp[k] = arr1[i];
+//     k++;
+//     i++;
+// }
+// console.log(temp);
+
+// let arr = [1, 1, 2, 2, 3, 3, 4, 4, 5, 6, 7, 8];
+// let j = 1;
+// for (let i = 0; i < arr.length - 1; i++) {
+//     if (arr[i] !== arr[i + 1]) {
+//         arr[j] = arr[i + 1];
+//         j++
+//     }
+// }
+// console.log(arr);
+
+
+// let arr = [0, 2, 4, 6, 8];
+// let arr1 = [1, 3, 5, 7, 9];
+// let temp = new Array(arr.length, arr1.length);
+// let i = 0,
+//     j = 0,
+//     k = 0;
+// while (i < arr.length && j < arr.length) {
+//     if (arr[i] < arr1[j]) {
+//         temp[k] = arr[i];
+//         k++;
+//         i++;
+//     }
+//     else {
+//         temp[k] = arr1[j];
+//         k++;
+//         j++;
+//     }
+// }
+// while (j < arr1.length) {
+//     temp[k++] = arr1[j++];
+// }
+// while (i < arr.length) {
+//     temp[k++] = arr[i++];
+// }
+// console.log(temp);
