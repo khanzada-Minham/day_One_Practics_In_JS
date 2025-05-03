@@ -242,3 +242,46 @@
 //     }
 // }
 // console.log(toggal);
+
+
+
+
+// let str = 'Minham Hussain';
+// let arr = [...str];
+// let i = 0;
+// let j = arr.length - 1;
+// while (i < j) {
+//     let temp = arr[i];
+//     arr[i] = arr[j];
+//     arr[j] = temp;
+//     i++;
+//     j--;
+// }
+// arr = arr.join('')
+// console.log(arr);
+
+// let str = 'Minham Hussain';
+// let result = '';
+// for (let i = str.length - 1; i >= 0; i--) {
+//     result += str[i];
+// }
+// console.log(result);
+
+
+
+// let str = 'Hello Word!';
+// let result = '';
+// for (let i = str.length - 1; i >= 0; i--) {
+//     result += str[i];
+// }
+// console.log(result);
+
+// function revers(input) {
+//     let result = '';
+//     for (let i = input.length - 1; i >= 0 ; i--) {
+//         result += input[i]
+//     }
+//     console.log(result);
+// }
+// revers('Minham');
+// revers('Hello Word!');

@@ -491,3 +491,60 @@ console.log(arr);
 //     temp[k++] = arr[i++];
 // }
 // console.log(temp);
+
+
+// var merge = function (nums1, m, nums2, n) {
+//     let i = m - 1;
+//     let j = n - 1;
+//     let k = m + n - 1;
+
+//     while (j >= 0) {
+//         if (i >= 0 && nums1[i] > nums2[j]) {
+//             nums1[k] = nums1[i];
+//             i--;
+//         } else {
+//             nums1[k] = nums2[j];
+//             j--;
+//         }
+//         k--;
+//     }
+// };
+// let nums1 = [1, 2, 3, 0, 0, 0];
+// let nums2 = [2, 5, 6];
+// merge(nums1, 3, nums2, 3);
+// console.log(nums1);
+
+
+// function merge(nums1, m, nums2, n) {
+//     let i = m - 1;
+//     let j = n - 1;
+//     let k = m + n - 1;
+//     while (j >= 0) {
+//         if (i >= 0 && nums1[i] > nums2[j]) {
+//             nums1[k] = nums1[i];
+//             i--;
+//         }
+//         else {
+//             nums1[k] = nums2[j];
+//             j--;
+//         }
+//         k--;
+//     }
+// };
+// let nums1 = [1, 2, 3, 0, 0, 0];
+// let nums2 = [2, 5, 6];
+// merge(nums1, 3, nums2, 3)
+// console.log(nums1);
+
+// let arr = [1, 10, 4, 5, 9, 3, 7, 6, 8, 2];
+// for (let i = 0; i < arr.length; i++) {
+// for (let j = 0; j < arr.length - 1; j++) {
+//     if (arr[j] > arr[j + 1]) {
+//         let temp = arr[j];
+//         arr[j] = arr[j + 1];
+//         arr[j + 1] = temp;
+//     }
+// }
+// }
+// console.log(arr);
+
